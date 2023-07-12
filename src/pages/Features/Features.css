@@ -75,11 +75,129 @@
 .features_last .history_img img {
   width: 80%;
 }
-
+.feature_last .history_info {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+/* 
+.features_btn {
+display: flex;
+justify-content: flex-start;
+} */
 .features_btn button {
   background-color: var(--yellow-theme);
-  color: white;
+  color: var(--heading-text-color);
   height: 47px;
   width: 230px;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .features_detail {
+    gap: 50px;
+  }
+
+  .features_detail div p {
+    font-size: 14px;
+  }
+
+  .extra_features div p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .features_heading {
+    margin-bottom: 80px;
+  }
+  .features_heading h1 {
+    font-size: 50px;
+  }
+
+  .features_info {
+    flex-direction: column;
+  }
+
+  .features_detail {
+    gap: 0px;
+  }
+
+  .features_img {
+    margin-bottom: 50px;
+  }
+
+  .features_img img {
+    width: 85%;
+  }
+
+  .feature_last .history_info {
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .feature_last .history_info h1 {
+    /* justify-content: center; */
+    text-align: left;
+  }
+
+  .extra_features {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .extra_features div {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .extra_features div p {
+    font-size: 17px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+
+  .features {
+    padding: 0 50px;
+  }
+
+  .features_heading h1 {
+    font-size: 35px;
+  }
+  .features_heading p span {
+    display: inline;
+  }
+
+  .features_detail {
+    gap: 30px;
+  }
 }

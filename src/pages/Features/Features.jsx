@@ -85,7 +85,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="history_detail feature_last flex_container">
+        <div className="history_detail  flex_container feature_last">
           <div className="history_img">
             <img src={three2} alt="" />
           </div>
@@ -105,7 +105,7 @@ const Features = () => {
             </p>
 
             <div className="features_btn ">
-              <button>Host a Party</button>
+              <button>Choose For Yourself</button>
             </div>
           </div>
         </div>
