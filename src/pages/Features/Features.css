@@ -12,6 +12,7 @@
 .features_info {
   display: flex;
   width: 100%;
+  gap:100px;
 }
 
 .features_img {
@@ -68,9 +69,14 @@
   margin-right: 20px;
 }
 
+
+
+
 .features_last .history_img {
   justify-content: flex-start;
 }
+
+
 
 .features_last .history_img img {
   width: 80%;
@@ -91,7 +97,9 @@ justify-content: flex-start;
   width: 230px;
   margin-top: 50px;
 }
-
+.features .feature_last {
+column-gap: 120px;
+}
 @media screen and (min-width: 1536px) {
   .container {
     max-width: 1280px;
@@ -173,6 +181,10 @@ justify-content: flex-start;
     font-size: 17px;
     text-align: center;
   }
+
+  .features_info {
+      gap: 0px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -185,6 +197,8 @@ justify-content: flex-start;
   .container {
     width: 100%;
   }
+
+
 
   .features {
     padding: 0 50px;
