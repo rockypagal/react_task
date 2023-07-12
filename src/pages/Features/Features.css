@@ -1,0 +1,85 @@
+.features_heading {
+  text-align: center;
+  margin-bottom: 150px;
+}
+.features_heading h1 {
+  font-size: 56px;
+}
+.features_heading span {
+  display: block;
+}
+
+.features_info {
+  display: flex;
+  width: 100%;
+}
+
+.features_img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.features_img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.features_detail {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+}
+
+.features_detail div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.features_detail div span {
+  font-size: 120px;
+  margin-right: 20px;
+}
+
+.extra_features {
+  display: flex;
+  gap: 80px;
+  margin: 100px 0;
+}
+.extra_features div {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.extra_features div p {
+  font-size: 20px;
+}
+.extra_features div span {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.features_last .history_img {
+  justify-content: flex-start;
+}
+
+.features_last .history_img img {
+  width: 80%;
+}
+
+.features_btn button {
+  background-color: var(--yellow-theme);
+  color: white;
+  height: 47px;
+  width: 230px;
+  margin-top: 20px;
+}
