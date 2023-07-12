@@ -13,24 +13,32 @@ const Footer = () => {
           </h1>
           <p className="normal-font">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            tellus, luctus nec<br/> ullamcorper mattis, pulvinar dapibus leo.
           </p>
         </div>
       </div>
       <div className="footer">
         <div className="footer1">
-          <h1 className="heading-font">Hosting A Party?</h1>
-          <p className="normal-font">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
+          <div className="footer_overlay">
+            <h1 className="heading-font">Hosting A Party?</h1>
+            <p className="normal-font">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus,<br/> luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+            <button>Get Biergut</button>
+          </div>
         </div>
         <div className="footer2">
-          <h1 className="heading-font">Own a Pub or Bar?</h1>
-          <p className="normal-font">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>{" "}
+          <div className="footer_overlay">
+            <h1 className="heading-font">Own a Pub or Bar?</h1>
+            <p className="normal-font">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus,<br/> luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>{" "}
+
+            <button>Contact For Stocking</button>
+
+          </div>
         </div>
       </div>
     </section>

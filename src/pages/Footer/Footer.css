@@ -1,3 +1,7 @@
+.footerSection {
+  margin-top: 50px;
+}
+
 .footer_heading {
   background-image: url("../../assets/img/party2.jpg");
   background-size: cover;
@@ -8,7 +12,7 @@
   position: relative;
 }
 
-.footer_heading_cover {
+.footer_heading_cover,.footer_overlay {
   position: absolute;
   display: flex;
   align-items: center;
@@ -29,3 +33,103 @@
 .footer_heading h1 {
   font-size: 56px;
 }
+
+.footer {
+  display: flex;
+}
+
+.footer1,
+.footer2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/img/house.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 150px 0;
+  position: relative;
+  
+}
+
+.footer1 button,
+.footer2 button {
+  background-color: var(--yellow-theme);
+    height: 47px;
+        width: 230px;
+        margin-top: 20px;
+}
+
+.footer1 h1,.footer1 p,
+.footer2 h1,.footer2 p {
+    color:white;
+}
+.footer2 {
+background-image: url("../../assets/img/pub.jpg");
+}
+
+
+@media screen and (min-width:1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .footer br{
+        display: none;
+    }
+
+    .footer p{
+    font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 640px;
+    }
+
+        .footer {
+         flex-direction: column;
+        }
+
+                 .footer br {
+                     display: block ;
+                 }
+}
+
+@media screen and (max-width:640px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .container {
+        width: 100%;
+    }
+
+        .footer_heading h1 {
+            font-size: 40px;
+        }
+
+                .footer br {
+                    display: none;
+                }
+}
+
