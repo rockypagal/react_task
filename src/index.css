@@ -59,6 +59,11 @@ button {
   background: none;
   font-family: "Bungee", cursive;
   padding: 0;
+  transition: all 0.3s;
+}
+button:hover {
+  scale: 1.1;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 
