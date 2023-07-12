@@ -1,0 +1,31 @@
+.footer_heading {
+  background-image: url("../../assets/img/party2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 250px 0;
+  position: relative;
+}
+
+.footer_heading_cover {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer_heading h1,
+.footer_heading p {
+  color: white;
+}
+
+.footer_heading h1 {
+  font-size: 56px;
+}
