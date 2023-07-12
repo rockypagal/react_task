@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600&display=swap");
+
+:root {
+  --yellow-theme: #f3c242;
+  --lightWhite-theme: rgba(149, 149, 149, 0.09);
+  --heading-color: #3a3a3a;
+  --text-color: #4b4f58;
+  --card-color: #2b2b2b;
+  --heading-text-color: #3a3a3a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: calc(1em+0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+}
+
+p {
+  line-height: 30px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+img,
+svg,
+pictures {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+.heading-font {
+  font-family: "Bungee", sans-serif;
+  color:var(--heading-text-color);
+}
+
+.normal-font {
+  font-family: "Cairo", sans-serif;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  /* display: inline-block; */
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: "Bungee", cursive;
+  padding: 0;
+}
+
+

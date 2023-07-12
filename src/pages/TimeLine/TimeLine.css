@@ -1,0 +1,188 @@
+.historySection {
+  background-color: var(--lightWhite-theme);
+  padding: 130px 0;
+}
+
+.history_detail {
+  /* padding-top: 130px; */
+  width: 100%;
+  gap: 70px;
+}
+
+.history_img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.history_img img {
+  width: 100%;
+}
+
+.history_info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.history_info h1 {
+  font-size: 56px;
+}
+
+.history_info p:last-child {
+  margin-top: 30px;
+}
+
+.timeLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+  width: 100%;
+}
+
+.TL-1 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.TL-1 p {
+  text-align: center;
+}
+.TL-1 h2 {
+font-size: 36px;
+}
+
+.mug {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  width: 100%;
+}
+
+.mug span {
+  flex: 1;
+  display: block;
+  background-color: var(--heading-text-color);
+  width: 100%;
+  height: 1px;
+}
+
+.mug p {
+  flex: 1;
+  width:fit-content;
+}
+
+
+@media screen and (min-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+
+.history_info h1 {
+    font-size: 50px;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+
+.historySection {
+      padding: 100px 0px;
+      
+  }
+  .history_info h1 {
+      font-size: 40px;
+      margin-top: 0;
+  }
+  .history_info p {
+    font-size: 15px;
+  }
+  .history_info p:last-child {
+      margin-top: 10px;
+  }
+
+  .history_detail{
+    gap:50px;
+  }
+
+.TL-1 p{
+    width: 90%;
+    margin: 0 auto;
+    font-size:15px;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+
+
+
+
+  .historySection{
+    overflow: hidden;
+  }
+
+  .history_detail{
+    flex-direction: column;
+    gap:70px;
+  }
+
+
+
+  
+
+
+  .TL-1 h2{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+
+   .historySection {
+      padding: 100px 50px;
+
+  }
+  .timeLine {
+    flex-direction: column;
+  }
+
+  .TL-1 p {
+   margin-bottom: 50px;
+  }
+
+  .mug {
+   /* flex-direction: column; */
+  }
+
+}
+
+@media screen and (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+}

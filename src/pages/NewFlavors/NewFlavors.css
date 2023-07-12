@@ -1,0 +1,144 @@
+.FlavorSection {
+  padding: 30px 0px;
+}
+/* .FlavorSection p{
+font-family: "Cairo", sans-serif;
+} */
+
+.flavor_heading {
+  text-align: center;
+margin-bottom: 70px;
+}
+.flavor_heading h1 {
+  font-size: 56px;
+}
+.flavor_heading span {
+  display: block;
+}
+
+
+.new_flavor {
+  display: flex;
+  /* border: 1px solid black; */
+padding-bottom: 100px;
+box-sizing: border-box;
+}
+
+.new_flavor .image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.new_flavor .image img {
+  width: 80%;
+}
+
+.flavor_info {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width:100%;
+  background-color: var(--lightWhite-theme);
+padding:50px;
+box-sizing: border-box;
+}
+.flavor_info h5{
+  font-size: 18px;
+}
+.flavor_info h1{
+  font-size: 46px;
+  color:var(--yellow-theme)
+}
+
+
+
+.beer_stats{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+column-gap:80px;
+row-gap:50px;
+}
+
+
+
+
+.reverse{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+
+.reverse .image {
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+@media screen and (min-width:1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 640px;
+    }
+
+        .flavor_heading h1 {
+            font-size: 48px;
+        }
+        .flavor_heading p span {
+            display: inline;
+        }
+
+        .new_flavor {
+           flex-direction: column;
+           gap:100px;
+        }
+
+                .new_flavor .image {
+                    justify-content: center;
+}
+
+}
+@media screen and (max-width:640px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .flavor_heading h1 {
+            font-size: 40px;
+        }
+
+                  .flavor_heading p {
+                     font-size: 14px;
+                     margin:0 20px;
+                  }
+
+    .container {
+        width: 100%;
+    }
+}
